@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="toolsqa test Suite" annotations="JDK">
+<!-- 
+   <test name="Toolsqa home page validation">
+    <parameter name="BrowserName" value="chrome" />
+  <parameter name="Url" value="http://www.toolsqa.com/" />
+    <classes>
+      <class name="com.toolsqa.test.ToolsqaHomePageValidateTest" />
+    </classes>
+  </test>
+  
+  -->
+    
+   <test name="Toolsqa practice form page test">
+    <parameter name="BrowserName" value="chrome" />
+  <parameter name="Url" value="http://www.toolsqa.com/automation-practice-form/" />
+    <classes>
+      <class name="com.toolsqa.test.PracticeFormPageTest" />
+    </classes>
+  </test>
+  
+  </suite>
