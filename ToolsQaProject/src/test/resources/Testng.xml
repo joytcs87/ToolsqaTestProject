@@ -1,23 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <suite name="toolsqa test Suite" annotations="JDK">
-<!-- 
+   <!--  
    <test name="Toolsqa home page validation">
-    <parameter name="BrowserName" value="chrome" />
+    <parameter name="BrowserName" value="firefox" />
   <parameter name="Url" value="http://www.toolsqa.com/" />
     <classes>
       <class name="com.toolsqa.test.ToolsqaHomePageValidateTest" />
     </classes>
   </test>
-  
-  -->
-    
+ 
    <test name="Toolsqa practice form page test">
-    <parameter name="BrowserName" value="chrome" />
+    <parameter name="BrowserName" value="firefox" />
   <parameter name="Url" value="http://www.toolsqa.com/automation-practice-form/" />
     <classes>
       <class name="com.toolsqa.test.PracticeFormPageTest" />
     </classes>
   </test>
-  
+  -->
+   <test name="Toolsqa iframe page test">
+    <parameter name="BrowserName" value="firefox" />
+  <parameter name="Url" value="http://www.toolsqa.com/iframe-practice-page/" />
+    <classes>
+      <class name="com.toolsqa.test.IFrameTest" />
+    </classes>
+  </test>
+
   </suite>

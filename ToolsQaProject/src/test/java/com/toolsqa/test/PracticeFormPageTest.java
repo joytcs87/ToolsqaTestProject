@@ -36,19 +36,19 @@ public class PracticeFormPageTest extends CommonFunction{
 		
 		practiceFormPage.lastName.sendKeys("Dey");
 		
-		Assert.assertTrue(AutomationPracticeFormPage.selectRadioBtnByValue(practiceFormPage.sex, "Female"), 
+		Assert.assertTrue(selectRadioBtnByValue(practiceFormPage.sex, "Female"), 
 				"Sex radio button is not selected");
 		Reporter.log("Sex radio button is successfully selected",true);
 		
-		Assert.assertTrue(AutomationPracticeFormPage.selectRadioBtnByValue(practiceFormPage.experience, "4"), 
+		Assert.assertTrue(selectRadioBtnByValue(practiceFormPage.experience, "4"), 
 				"Experience radio button is not selected");
 		Reporter.log("Experience radio button is selected",true);
 		
-		Assert.assertTrue(AutomationPracticeFormPage.selectCheckBoxByValues(practiceFormPage.profession, "Manual Tester",
+		Assert.assertTrue(selectCheckBoxByValues(practiceFormPage.profession, "Manual Tester",
 				"Automation Tester"), "Profession check box is not selected");
 		Reporter.log("Profession check box is successfully selected",true);
 		
-		Assert.assertTrue(AutomationPracticeFormPage.selectCheckBoxByValues(practiceFormPage.tool, "Selenium Webdriver"), 
+		Assert.assertTrue(selectCheckBoxByValues(practiceFormPage.tool, "Selenium Webdriver"), 
 				"Tools check box is not selected successfuly");
 		Reporter.log("Tools check box is successfully selected",true);
 		

@@ -5,14 +5,9 @@ import java.util.List;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-
-public class AutomationPracticeFormPage {
-	
-	@FindBy(partialLinkText="Link Test")
-	public WebElement partialLinkTest;
-	
-	@FindBy(linkText="Link Test")
-	public WebElement linkTest;
+public class IFramePage {
+	@FindBy(tagName="iframe")
+	public List <WebElement> iFrameElements;
 	
 	@FindBy(name="firstname")
 	public WebElement firstName;
@@ -24,13 +19,13 @@ public class AutomationPracticeFormPage {
 	public List <WebElement> sex;
 	
 	@FindBy(name="exp")
-	public List <WebElement> experience;
+	public List<WebElement> exp;
 	
 	@FindBy(name="profession")
 	public List<WebElement> profession;
 	
-	@FindBy(id="photo")
-	public WebElement photo;
+	@FindBy(id="datepicker")
+	public WebElement date;
 	
 	@FindBy(name="tool")
 	public List<WebElement> tool;
@@ -38,10 +33,10 @@ public class AutomationPracticeFormPage {
 	@FindBy(name="continents")
 	public WebElement continents;
 	
-	@FindBy(name="selenium_commands")
-	public WebElement seleniumCommands;
+	@FindBy(id="selenium_commands")
+	public WebElement seleniumCommand;
 	
 	@FindBy(id="submit")
 	public WebElement submit;
-			
+
 }
